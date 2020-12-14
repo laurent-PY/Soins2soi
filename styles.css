@@ -1,0 +1,42 @@
+.card {
+    margin: 0 auto;
+    /* Permet de centrer les card */
+    float: none;
+    margin-bottom: 10px;
+}
+
+.card-img-top {
+    width: 100%;
+    object-fit: cover;
+}
+
+.marginTop {
+    margin-top: 100px;
+}
+
+img {
+    margin-top: 30px;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.texth2 {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h1 {
+    padding-top: 15px;
+    margin-top: 20px;
+}
+p{
+    margin-bottom: 30px;
+}
+h3{
+    margin-top: 20px;
+}
+.bckgrnd{
+    background-image: url('img/29.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

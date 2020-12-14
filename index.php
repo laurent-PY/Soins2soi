@@ -168,9 +168,7 @@
                 natus, corrupti velit necessitatibus in maiores tempore earum? Illum, temporibus quis nihil magnam
                 optio
                 iure consequatur sapiente dolore. Temporibus, laudantium. Saepe quos nisi cum, hic sapiente,
-                quibusdam
-                debitis optio similique ut facilis aperiam, earum tempora cumque facere. Atque eligendi, molestias,
-                perferendis officiis enim accusamus, ab fugit quas sint a numquam sed excepturi id pariatur.
+                quibusdam.
             </p>
         </div>
     </div>

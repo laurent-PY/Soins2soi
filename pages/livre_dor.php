@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
@@ -69,7 +68,6 @@
                                 </div>
                                 <form action="">
                                     <label><input type="text" name=""></label>
-
                                     <a href="#" class="btn btn-primary">Go somewhere</a>
                                 </form>
                             </div>

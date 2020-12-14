@@ -15,7 +15,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tutoBootStrap</title>
 </head>
-
 <body class="bckgrnd">
 <div class="container">
     <div id="menuNavbar">
@@ -48,7 +47,7 @@
     <!-- fin de div container -->
     <div class="container">
         <div>
-            <h2 class="texth2">page 1 textes</h2>
+            <h2 class="texth2">Informations générales</h2>
         </div>
         <div class="row">
 
@@ -155,5 +154,4 @@
             </div>
         </div>
 </body>
-
 </html>

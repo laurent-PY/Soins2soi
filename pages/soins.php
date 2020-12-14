@@ -47,14 +47,14 @@
     <!-- fin de div container -->
     <div class="container">
         <div>
-            <h2 class="texth2">page photos</h2>
+            <h2 class="texth2">Les différents soins</h2>
         </div>
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6">
                 <img src="https://picsum.photos/800/400?random=1" width="800px" height="400px" class="img-fluid" alt="">
             </div>
             <div class="col-md-12 col-lg-6">
-                <h1>texte photo 1</h1>
+                <h1>texte explicatif</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid expedita sit consectetur alias sequi
                     quia officiis error nobis ut autem, quam, nihil repellat dolore odio qui aut repudiandae minus
                     minima. Iusto, dolorum ducimus velit qui laboriosam illum deleniti, fugiat architecto explicabo
@@ -71,7 +71,7 @@
                 <img src="https://picsum.photos/800/400?random=2" width="800px" height="400px" class="img-fluid" alt="">
             </div>
             <div class="col-md-12 col-lg-6">
-                <h1>texte photo 2</h1>
+                <h1>texte explicatif</h1>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ratione, animi illum amet
                     alias veritatis ipsa! A sapiente dolore cupiditate, ex explicabo labore molestiae
@@ -88,7 +88,7 @@
                 <img src="https://picsum.photos/800/400?random=3" width="800px" height="400px" class="img-fluid" alt="">
             </div>
             <div class="col-md-12 col-lg-6">
-                <h1>texte photo 3</h1>
+                <h1>texte explicatif</h1>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque quos non nobis quae odio rem
                     architecto? Animi impedit fuga sint esse distinctio ex natus mollitia labore repudiandae ea, magni

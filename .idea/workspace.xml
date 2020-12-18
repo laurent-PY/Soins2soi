@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ab90af5-d53a-4354-b5e9-0aa93a2ada6c" name="Default Changelist" comment="" />
+    <list default="true" id="5ab90af5-d53a-4354-b5e9-0aa93a2ada6c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c2ba131d-5d9a-4fc9-b4e6-04a2cf909ee1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c2ba131d-5d9a-4fc9-b4e6-04a2cf909ee1/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c2ba131d-5d9a-4fc9-b4e6-04a2cf909ee1/storage_v2/_src_/schema/soindesoi.i4k0GQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c2ba131d-5d9a-4fc9-b4e6-04a2cf909ee1/storage_v2/_src_/schema/soindesoin.Q6hcDQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/info_pratiques.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/info_pratiques.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/initiation.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/initiation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/livre_dor.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/livre_dor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/soins.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/soins.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +53,8 @@
       <workItem from="1607004963832" duration="15984000" />
       <workItem from="1607270523457" duration="604000" />
       <workItem from="1607931069428" duration="9138000" />
-      <workItem from="1608239458806" duration="11957000" />
+      <workItem from="1608239458806" duration="12420000" />
+      <workItem from="1608280333535" duration="1412000" />
     </task>
     <servers />
   </component>

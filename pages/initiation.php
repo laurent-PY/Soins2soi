@@ -39,7 +39,7 @@
                         <a class="nav-link" href="info_pratiques.php">Informations pratiques</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pages/livre_dor.php">Livre d'or </a>
+                        <a class="nav-link" href="livre_dor.php">Livre d'or </a>
                     </li>
                 </ul>
             </div>

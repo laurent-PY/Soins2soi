@@ -52,10 +52,10 @@ if (isset($_POST['subMess'])) {
                         <a class="nav-link" href="initiation.php">Initiation</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Informations pratiques</a>
+                        <a class="nav-link" href="info_pratiques.php">Informations pratiques</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="livre_dor.php">Livre d'or </a>
+                        <a class="nav-link" href="#">Livre d'or </a>
                     </li>
                 </ul>
             </div>

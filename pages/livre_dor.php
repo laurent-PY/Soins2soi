@@ -1,3 +1,20 @@
+<?php
+include '../script/pdoconect.php';
+include '../script/req_ins.php';
+$messageAddSuccess = false;
+$messageChampVide = false;
+if (isset($_POST['subMess'])) {
+    if (!empty($_POST['pseudo_message']) && !empty($_POST['titre_message']) && !empty($_POST['date_message']) && !empty($_POST['contenu_message'])) {
+        $messageChampVide = false;
+        insMess();
+        $messageAddSuccess = true;
+
+    }else {
+        $messageChampVide = true;
+    }
+}
+
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -47,35 +64,56 @@
     <!-- fin de div container -->
     <div class="container">
         <div class="card marginTop">
-            <div class="card-header">
-                Pour me laisser une trace de votre passage...
-            </div>
             <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <div class="col-lg-12" >
-                    <div class="accordion" id="accordionExample">
-                        <div class="card">
-                            <div class="card-header" id="headingOne">
-                                <h2 class="mb-0">
-                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Collapsible Group Item #1
+                <form action="" method="post">
+                    <div class="row">
+                        <div class="col-md-3"><label>Veuillez entrer votre pseudo</label></div>
+                        <div class="col-md-4"><input name="pseudo_message" type="text" class="form-control"></div>
+                        <div class="col-md-5"></div>
+                        <div class="col-md-3"><label>Un petit titre =) </label></div>
+                        <div class="col-md-4"><input name="titre_message" type="text" class="form-control"></div>
+                        <div class="col-md-5"></div>
+                        <div class="col-md-3"><label>La date de voter passage</label></div>
+                        <div class="col-md-4"><input name="date_message" type="date" class="form-control"></div>
+                        <div class="col-md-5"></div>
+                        <div class="col-md-3"><label>Par ici le message  </label></div>
+                        <div class="col-md-6"><textarea name="contenu_message" class="form-control" rows="10" ></textarea></div>
+                        <div class="col-md-3"></div>
+                        <div class="col-md-3">
+                            <div class="col-md-2"><label for="sub"><input type="submit" class="btn btn-success" name="subMess" value="Sauver"></label></div>
+                        </div>
+                        <div class="col-md-6 mrgTop">
+                            <?php if ($messageChampVide)  {
+                                ?> <div class="alert alert-warning alert-dismissible" role="alert" id="hideDivChampAbsent">
+                                    Veuillez remplir tous les champ du formulaire.
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
                                     </button>
-                                </h2>
-                            </div>
-                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                                <div class="card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                                 </div>
-                                <form action="">
-                                    <label><input type="text" name=""></label>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </form>
+                                <?php
+                            }
+                            ?>
+                            <?php if ($messageAddSuccess) {
+                            ?> <div class="alert alert-success alert-dismissible fade show" role="alert" id="hideDivAjoutOk">
+                                Votre message a été envoyé. Merci !
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button
                             </div>
+                            <?php
+                        }
+                            ?>
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
     </div>
+</div>
+<script>
+    window.setTimeout("document.getElementById('hideDivChampAbsent').style.display='none';", 2000);
+    window.setTimeout("document.getElementById('hideDivAjoutOk').style.display='none';", 2000);
+    window.setTimeout("document.getElementById('hideDivItemExist').style.display='none';", 2000);
+</script>
 </body>
 </html>
